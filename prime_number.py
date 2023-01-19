@@ -18,3 +18,10 @@ while i<num+1:
         print(i)
         i+=1 #we inrement i only when we find a prime number
    N+=1 
+x = "hello"
+try:
+    if not type(x) is int:
+        raise TypeError("Only integers are allowed")
+except TypeError as r:
+    print(r)
+print("a")
